@@ -16,3 +16,5 @@ Route::get('/', 'PageController@home');
 Route::get('/about', function () {
     return view("about");
 });
+
+Route::get('/contact', 'ContactController@index');
