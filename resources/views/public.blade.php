@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Laravel</title>
-        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <link rel="stylesheet" type="text/css" href="{{ elixir('css/app.css') }}">
     </head>
     <body>
         <div class="well">
